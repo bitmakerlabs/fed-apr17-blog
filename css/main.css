@@ -1,0 +1,132 @@
+/* temp */
+img {
+  max-width: 100%;
+}
+
+
+
+body {
+  /* want / inherited */
+  font-size: 0.875em;
+  font-family: 'Noto Serif', Georgia, serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.blog .content p {
+  margin: 1em 0;
+}
+
+.blog .content > p:first-child {
+  font-size: 1.14285714285714em;
+  font-style: italic;
+}
+
+strong {
+  font-weight: 900;
+}
+
+em {
+  font-style: italic;
+}
+
+a {
+  color: rgb(205, 113, 47);
+  text-decoration: none;
+}
+.blog a:hover {
+  background-color: rgb(205, 113, 47);
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+.sans {
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+.container {
+  width: 100%;
+}
+
+.bar-bottom, .bar-top, .padthis, .related, .comments {
+  padding: 0 1em;
+}
+
+
+.bar-top {
+  background-color: rgb(121, 111, 108);
+}
+
+.nav {
+  position: relative;
+}
+
+  .logo img {
+    height: 2em;
+  }
+  .menu {
+    height: 0;
+    overflow: hidden;
+    transition: height 1s;
+  }
+  .open {
+    height: 12em;
+  }
+
+
+  .menu li {
+    text-align: right;
+  }
+  .menu a {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 0.5em;
+    right: 0em;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  .hamburger div {
+    width: 3em;
+    height: 0.25em;
+    background-color: white;
+    border-radius: 0.125em;
+    margin-bottom: 0.5em;
+  }
+
+
+
+.main {
+  margin: 2em 0;
+}
+
+  .blog blockquote {
+    padding-left: 2em;
+    text-align: right;
+    border-left: 5px solid rgb(121, 111, 108);
+  }

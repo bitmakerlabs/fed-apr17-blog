@@ -1,0 +1,81 @@
+@media screen and (min-width: 40em) {
+
+  body {
+    font-size: 1em;
+  }
+
+  .nav {
+    display: block;
+  }
+
+}
+
+
+@media screen and (min-width: 48em) {
+
+  .container {
+    width: 46em;
+    margin: auto;
+  }
+  .nav {
+    overflow: hidden;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    height: auto;
+  }
+
+  .logo {
+    padding-top: 1.125em;
+  }
+
+  .menu li {
+    display: inline-block;
+    padding-left: 1em;
+  }
+
+  .menu a {
+    line-height: 3;
+  }
+
+  .menu {
+    float: right;
+  }
+  .logo {
+    float: left;
+  }
+
+}
+
+@media screen and (min-width: 60em) {
+
+  .container {
+    width: 58em;
+  }
+
+  .blog {
+    overflow: hidden;
+  }
+
+  .content {
+    width: 75%;
+    /*background-color: red;*/
+    float: left;
+  }
+  .footer {
+    width: 25%;
+    /*background-color: blue;*/
+    float: right;
+  }
+
+
+
+
+
+
+
+}
